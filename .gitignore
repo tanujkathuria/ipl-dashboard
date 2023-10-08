@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### front end ignore react app ###
-src/frontend/node_modules
+!**/src/frontend/node_modules

@@ -1,0 +1,13 @@
+.header-home{
+    text-align: center;
+
+}
+.tiles{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    width: 90%;
+}

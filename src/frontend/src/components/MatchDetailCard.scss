@@ -1,0 +1,28 @@
+.MatchDetailCard{
+  display: grid;
+  grid-template-columns: 2;
+  border: 1px solid white;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 50%;
+//   grid-template-rows: 3;
+
+  .innings{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  .teamStyle{
+      color: rgb(179, 195, 81);
+  }
+
+  
+}
+
+.backColorGreen-detail{
+    background-color: rgb(42, 133, 42) ;
+}
+.backColorRed-detail{
+      background-color: rgb(142, 54, 54);
+  }

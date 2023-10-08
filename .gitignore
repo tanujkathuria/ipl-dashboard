@@ -31,6 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-### front end ignore react app ###
-!**/src/frontend/node_modules

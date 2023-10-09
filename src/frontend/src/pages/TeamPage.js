@@ -8,7 +8,6 @@ import { PieChart } from 'react-minimal-pie-chart';
 
 
 import './TeamPage.scss'
-import HomePage from './HomePage';
 
 
 export const TeamPage = () => {

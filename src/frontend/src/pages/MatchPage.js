@@ -28,7 +28,7 @@ const MatchPage = () => {
         <div className='dates'><YearSelector teamName={teamName} year={year}/></div>
         <div className='matches'><h2 className='heading'>{teamName} matches in {year}   <Link to={`/teams/${teamName}`}>Go back</Link></h2>
         {matches.slice(1).map(match => {
-        const otherTeam = match.team1 == teamName ? match.team2 : match.team1;
+        const otherTeam = match.team1 === teamName ? match.team2 : match.team1;
         const otherTeamRoute = `/teams/${otherTeam}`;
         const  matchWon = match?.matchWinner === teamName ? true : false;
         return <div className={matchWon ? "  backColorGreen-match" : "backColorRed-match"}>

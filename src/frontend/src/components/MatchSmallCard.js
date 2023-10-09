@@ -9,7 +9,7 @@ const MatchSmallCard = ({teamName, matches}) => {
         {matches?.slice(1).map(match => {
             console.log(match)
             console.log(teamName)
-            const otherTeam = match.team1 == teamName ? match.team2 : match.team1;
+            const otherTeam = match.team1 === teamName ? match.team2 : match.team1;
             const otherTeamRoute = `/teams/${otherTeam}`;
             const  matchWon = match?.matchWinner === teamName ? true : false;
 
